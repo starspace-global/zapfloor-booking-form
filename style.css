@@ -72,7 +72,7 @@ html, #__nuxt {
 .el-button--primary:hover,
 .el-button--primary:active,
 .el-button--primary:focus {
-  background-color: #00e687;
+  background-color: #00e687 !important;
   box-shadow: none;
-  color: #000000;
+  color: #000000 !important;
 }
