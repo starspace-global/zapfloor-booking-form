@@ -4,8 +4,8 @@ html, #__nuxt {
 }
 
 /* Scrollbar Styles */
-::-webkit-scrollbar-thumb {
-  background-color: #babac0 !important;
+body::-webkit-scrollbar-thumb {
+  background-color: #babac0;
 }
 
 /* Calendar */
