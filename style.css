@@ -1,0 +1,66 @@
+/* Global Styles */
+html, #__nuxt {
+  /*overflow: hidden;*/
+  overflow-x: hidden;
+}
+
+/* Calendar */
+.el-date-table td.current:not(.disabled) span {
+  background: #00e687;
+  color: #000000;
+}
+
+.el-date-table td.today span,
+.el-date-table td.available:hover, 
+.el-date-picker__header-label.active,
+.el-date-picker__header-label:hover,
+.time-select-item.selected:not(.disabled) {
+  color: #00e687;
+}
+
+/* Form Input */
+.el-input.is-active .el-input__inner,
+.el-input__inner:focus {
+  border-color: #00e687;
+}
+
+.scoped__step-one [class$="__title"] {
+  font-size: 24px;
+  margin-bottom: 4rem;
+}
+
+/* Button Styles */
+.el-button, 
+.el-button--primary,
+.el-button.is-plain,
+.el-button--primary.is-disabled {
+  margin-top: 1rem;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  padding: 20px 22px;
+  font-size: 13px;
+  line-height: 11.5px;
+  letter-spacing: 0.3px;
+  background-color: #000000;
+  border: none;
+  border-radius: 0;
+  transition: all .4s cubic-bezier(.32,.94,.6,1) !important;
+}
+
+.el-button--primary.is-disabled {
+  background-color: #585858;
+}
+
+.el-button--primary:hover,
+.el-button--primary:active,
+.el-button--primary:focus,
+.el-button.is-plain:hover,
+.el-button.is-plain:active, 
+.el-button.is-plain:focus,
+.el-button--primary.is-disabled:hover
+.el-button--primary.is-disabled:active,
+.el-button--primary.is-disabled:focus {
+  background-color: #00e687;
+  box-shadow: none;
+  color: #000000;
+}
