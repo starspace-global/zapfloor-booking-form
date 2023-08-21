@@ -14,16 +14,6 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--light-gray-color);
 }
 
-/* Tooltip Icon */
-.CustomerForm__tooltip-icon {
-  color: var(--brand-green);
-}
-
-/*  */
-.el-switch__label.is-active {
-  color: var(--brand-green);
-}
-
 /* Calendar */
 .el-date-table td.current:not(.disabled) span {
   background: var(--brand-green);
@@ -44,6 +34,29 @@ body::-webkit-scrollbar-thumb {
   border-color: var(--brand-green);
 }
 
+/* Tooltip Icon */
+.CustomerForm__tooltip-icon {
+  color: var(--brand-green);
+}
+
+/* From - Switch Toggle Text */
+.el-switch__label.is-active {
+  color: var(--brand-green);
+}
+
+/* Form - Checkbox */
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: var(--brand-green);
+  border-color: var(--brand-green);
+}
+
+/* Form - Select */
+.el-select .el-input.is-focus .el-input__inner {
+  border-color: var(--brand-green);
+}
+
+/* Title */
 .scoped__step-one [class$='__title'] {
   font-size: 24px;
   margin-bottom: 4rem;
