@@ -5,7 +5,7 @@ html, #__nuxt {
 
 /* Scrollbar Styles */
 ::-webkit-scrollbar-thumb {
-  background-color: #babac0;
+  background-color: #babac0 !important;
 }
 
 /* Calendar */
