@@ -93,9 +93,9 @@ body::-webkit-scrollbar-thumb {
   transition: all 0.4s cubic-bezier(0.32, 0.94, 0.6, 1) !important;
 }
 
-.el-button--primary:hover,
-.el-button--primary:active,
-.el-button--primary:focus {
+.el-button--primary:hover:not(.is-disabled),
+.el-button--primary:active:not(.is-disabled),
+.el-button--primary:focus:not(.is-disabled) {
   background-color: var(--brand-green) !important;
   box-shadow: none;
   color: #000000 !important;
